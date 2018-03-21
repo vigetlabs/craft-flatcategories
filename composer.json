@@ -1,5 +1,5 @@
 {
-    "name": "viget/flat-categories",
+    "name": "viget/craft-flat-categories",
     "description": "Select categories without hierarchy",
     "type": "craft-plugin",
     "version": "2.0.0",
