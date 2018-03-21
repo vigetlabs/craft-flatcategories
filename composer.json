@@ -1,0 +1,40 @@
+{
+    "name": "viget/flat-categories",
+    "description": "Select categories without hierarchy",
+    "type": "craft-plugin",
+    "version": "2.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "flat categories"
+    ],
+    "support": {
+        "docs": "https://github.com/vigetlabs/craft-flatcategories/blob/master/README.md",
+        "issues": "https://github.com/vigetlabs/craft-flatcategories/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Trevor Davis",
+            "homepage": "https://www.viget.com/"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "viget\\flatcategories\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Flat Categories",
+        "handle": "flat-categories",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/vigetlabs/craft-flatcategories/master/CHANGELOG.md",
+        "class": "viget\\flatcategories\\FlatCategories"
+    }
+}
